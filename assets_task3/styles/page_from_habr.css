@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 300px);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+  }
+  #id1 {
+    background-color: aquamarine;
+    text-align: center;
+  }
+  #id2 {
+    background-color: rgb(236, 236, 145);
+  }
+  #id3 {
+    background-color: blue;
+  }
+  #id4 {
+    background-color: violet;
+  }
+  #id5 {
+    background-color: greenyellow;
+    color: white;
+  }
+  #id6 {
+    background-color: orange;
+    color: white;
+  }
+  .container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
